@@ -10,6 +10,17 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "OnlineSubsystemEOS",
+			"Enabled": true
+		},
+		{
+			"Name": "AdvancedSessions",
+			"Enabled": true
 		}
+	],
+	"AdditionalPluginDirectories": [
+		"../../Unreal Plugins/AdvancedSessions"
 	]
 }
