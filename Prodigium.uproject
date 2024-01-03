@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Prodigium",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -12,11 +22,24 @@
 			]
 		},
 		{
+			"Name": "OnlineSubsystemRedpointEOS",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/2c92594ce5aa416c8bfbd79275389e3b"
+		},
+		{
+			"Name": "EOSShared",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineServicesEOS",
+			"Enabled": true
+		},
+		{
 			"Name": "OnlineSubsystemEOS",
 			"Enabled": true
 		},
 		{
-			"Name": "AdvancedSessions",
+			"Name": "SocketSubsystemEOS",
 			"Enabled": true
 		}
 	],
